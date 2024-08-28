@@ -183,7 +183,7 @@ The output of the CI part of CI/CD (like the .war file we just built) should alw
     ![Choose Azure Subscription](./media/chooseAzureSubscription.png)
 
 
-1. Click **Authorize**. Azure DevOps then tries to automatically create a so-called [Service Principle](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals) that our automation can use to authenticate against the Azure API, so that we can create resources and deploy apps. There are two prerequisites for this:
+1. Click **Authorize**. Azure DevOps then tries to automatically create a so-called [Service Principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals) that our automation can use to authenticate against the Azure API, so that we can create resources and deploy apps. There are two prerequisites for this:
     1. The currently logged on user must have permission to create a service principal.
     1. The currently logged on user must have permission to assign the Contributor role for the whole Azure subscription.
 
